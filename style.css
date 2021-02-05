@@ -374,7 +374,7 @@ h3:after {
   margin-right: -50%;
 }
 h3{
-  font-size: 2.3em;
+  font-size: 2em;
   color: rgb(1, 58, 94);
 }
 p{
@@ -582,20 +582,26 @@ top: 220%;
     display: block;
   }
   #presses img{
-    margin-left: 30%;
+    margin-left: 35%;
     margin-bottom: 4em;
-    width: 40%;
+    width: 30%;
   }
 .press1 p{
   margin-top: 7em;
+  font-size: 1.3em;
   margin-bottom: 4em;
 }
 .press2 p{
   margin-bottom: 4em;
+  font-size: 1.3em;
 }
 .press3 p{
   margin-bottom: 4em;
+  font-size: 1.3em;
 }
+}
+#presses p{
+  font-size: 1.5em;
 }
 @media screen and (max-width: 1300px) {
   .press h5:before,
@@ -797,6 +803,16 @@ font-size:1em ;
     left: 50%;
     opacity: 1;
   }
+  @media screen and (max-width: 1100px) {
+    .content .content-details{
+      top: 50%;
+      left: 50%;
+      opacity: 1;
+    }
+    .content .content-overlay{
+      opacity: 1;
+    }
+  }
   
   .content-details h3{
     color: #fff;
@@ -842,6 +858,7 @@ font-size:1em ;
   justify-content: space-around;
   align-items: center;
   margin-top: 7em;
+  margin-bottom: 6em;
   color: rgb(45, 43, 44);
 }
 #shop h2{
@@ -881,8 +898,9 @@ font-size:1em ;
 }
 #contact{
   background-color:rgb(236, 237, 240) ;
-  height: 43em;
-  margin-top: 13em;
+  height: 40em;
+  margin-top: 22em;
+  margin-bottom: -1em;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -890,9 +908,9 @@ font-size:1em ;
 #contact li{
   list-style: none;
   color:  rgb(0, 41, 66);
-  font-size: 1.3em;
+  font-size: 1.6em;
   font-weight: lighter;
-  line-height: 38px;
+  line-height: 40px;
   letter-spacing: 1.5px;
 }
 #contact h4{
@@ -908,6 +926,9 @@ font-size:1em ;
   margin-top: -2em;
   margin-left: 2.5em;
   color:  rgb(0, 41, 66);
+}
+#contact h4{
+  padding-top: 3em;
 }
 input[type=text] {
   width: 100%;
@@ -926,41 +947,66 @@ input[type=submit] {
   background-color: transparent;
   color:  rgb(0, 41, 66);
   font-size: 1.1em;
-  padding: 23px 140px;
+  padding: 23px 65px;
   border: 1px solid rgb(0, 41, 66);
   border-radius: 4px;
   cursor: pointer;
 }
-#contact .c4{
-  width: 20%;
+#contact .c3{
+  margin-left: 1em;
 }
-@media screen and (max-width: 1200px) {
+#contact .c4{
+  margin-left: 4em;
+}
+@media screen and (max-width: 1450px) {
   #contact{
     display: block;
-    height: 107em;
-    margin-top:- 9em;
+    height: 125em;
+    margin-bottom: -1.5em;
   }
   #contact ul{
-    margin-bottom: 20em;
+    margin-bottom: 21em;
   }
-  #contact .c4{
-    margin-left: 0.9em;
-    width: 80%;
-  }
- 
   #contact .c4 hr{
+    margin-left: 0.9em;
     width: 90%;
   }
+  #contact .c3{
+    width: 90%;
+  }
+  #contact h4{
+    padding-top: 2em;
+  }
+ 
   #contact form{
-    margin-left: 2em;
+    width: 90%;
   }
 }
-footer{
+.foot{
   text-align: center;
-  color: rgb(153, 153, 153);
+  color: rgb(82, 74, 74);
   font-size: 1.1em;
-  margin-top: 1.5em;
   background-color:rgb(236, 237, 240) ;
-  height: 3em;
-  margin-top: -2em;
+
+
 }
+#icons{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:rgb(236, 237, 240) ;
+justify-content: space-around;
+margin-top: -0.2em;
+padding-top: 1em;
+width: 100%;
+height: 4em;
+}
+#icons img{
+padding-left: 15em; 
+}
+@media screen and (min-width: 900px) {
+  #icons img{
+    padding-left: -12em;  }
+    #icons{
+      height: 5em;
+    }
+  }
