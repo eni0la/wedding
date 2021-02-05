@@ -969,15 +969,41 @@ input[type=submit] {
     margin-bottom: 21em;
   }
   #contact .c4 hr{
-    width: 90%;
+    width: 95%;
+    margin-left: -3em;
   }
   #contact .c3{
     width: 90%;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 30px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: transparent;
+    color:  rgb(0, 41, 66);
+    font-size: 1.5em;
+    padding: 23px 65px;
+    border: 1px solid rgb(0, 41, 66);
+    border-radius: 4px;
+    cursor: pointer;
   }
   #contact h4{
     padding-top: 2em;
   }
  
+ #contact li{
+   font-size: 2em;
+ }
   #contact form{
     width: 90%;
   }
@@ -986,7 +1012,7 @@ input[type=submit] {
   text-align: center;
   color: rgb(82, 74, 74);
   font-size: 1.1em;
-  height: 3em;
+  height: 4em;
   padding-top: 1em;
   margin-top: -0.3em;
   background-color:rgb(236, 237, 240) ;
