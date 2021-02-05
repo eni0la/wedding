@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css">
+<nav> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <div class="wrapper"> 
+  <div id="logo">LOGO GRACE LOVES LACE</div>
+  <label for="drop" class="toggle"> <button id="mobile-icon">
+    &#9776;
+  </button> </label>
+  <input type="checkbox" id="drop" />
+  <ul id="myDropdown">
+   <li>
+     <label for="drop-1" class="toggle">SHOP</label> <a href="#">SHOP</a>
+     <input type="checkbox" id="drop-1" />
+     <ul class="page1">
+       <h4>WEDDING DRESSES</h4>
+      <li><a href="#">SHOP ALL</a></li>
+      <li><a href="#">ELYSIAN COLLECTION</a></li>
+      <li><a href="#">SIGNATURE GOWNS</a></li>
+      <li><a href="#">LAST MINUTE BRIDES</a></li>
+      <li><a href="#">ONLINE SAMPLE SALE</a></li>
+      <li><a href="#">LAST CHANCE</a></li>
+  </ul> 
+  <ul class="page2">
+    <h4>COMPLETE THE LOOK</h4>
+   <li><a href="#">BRIDESMAIDS & OCASIONWEAR</a></li>
+   <li><a href="#">FLOWER GIRLS & OCCASIONWEAR</a></li>
+   <li><a href="#">VEILS & HAIR</a></li>
+   <li><a href="#">SHOES & ACCESSORIES</a></li>
+   <li><a href="#">JEWELLERY</a></li>
+   <li><a href="#">JACKETS & COVER UPS</a></li>
+   <li><a href="#">ENGAGEMENT & WEDDING RINGS</a></li>
+</ul> 
+<ul class="page3">
+  <h4>COLLECTIONS</h4>
+ <li><a href="#">ELYSIAN LOOKBOOK</a></li>
+ <li><a href="#">GRACE MINI LOOKBOOK</a></li>
+ <li><a href="#">LA BAMBA LOOKBOOK</a></li>
+ <li><a href="#">ICON LOOKBOOK</a></li>
+ <li><a href="#">LES DEUX LOOKBOOK</a></li>
+ <img src="./images/Untitled design (20).png">
+</ul> 
+   </li>
+       <li>
+        <label for="drop-2" class="toggle">ONLINE ASSISTANCE</label> <a href="#">ONLINE ASSISTANCE</a>
+     <input type="checkbox" id="drop-2" />
+     <ul class="p1">
+      <h4>ONLINE ASSISTANCE</h4>
+     <li><a href="#">VIRTUAL APPOINTMENTS</a></li>
+     <li><a href="#">GUIDE TO BUYING ONLINE</a></li>
+     <li><a href="#">SIZING & ORDERING</a></li>
+     <li><a href="#">CONTACT A STYLIST</a></li>
+     <li><a href="#">FREQUENTLY ASKED QUESTIONS</a></li>
+     <img src="./images/Untitled design (20).png">
+     <img src="./images/Untitled design (20).png">
+     <img src="./images/Untitled design (20).png">
+ </ul> 
+       </li>
+       <li>
+        <label for="drop-3" class="toggle">GLL BRIDES</label> <a href="#">GLL BRIDES</a>
+     <input type="checkbox" id="drop-3" />
+     <ul class="h1">
+      <h4>GLL BRIDES</h4>
+     <li><a href="#">REAL WEDDINGS</a></li>
+     <li><a href="#">GLL BRIDES GALLERY</a></li>
+     <li><a href="#">TESTIMONIALS</a></li>
+     <img src="./images/Untitled design (20).png">
+     <img src="./images/Untitled design (20).png">
+     <img src="./images/Untitled design (20).png">
+ </ul> 
+       </li>
+       <li>
+         <a href="#">JOURNAL</a>
+        </li>
+        <li>
+          <label for="drop-4" class="toggle">SHOWROOMS</label> <a href="#">SHOWROOMS</a>
+          <input type="checkbox" id="drop-4" />
+          <ul class="r1">
+            <h4>AUSTRALIA</h4>
+           <li><a href="#">SYDNEY</a></li>
+           <li><a href="#">MELBOURNE</a></li>
+           <li><a href="#">GOLD COAST</a></li>
+           <li><a href="#">PERTH</a></li>
+       </ul> 
+       <ul class="r2">
+         <h4>UNITED STATES</h4>
+        <li><a href="#">NEW YORK</a></li>
+        <li><a href="#">LOS ANGELES</a></li>
+        <li><a href="#">SAN DIEGO</a></li>
+        <li><a href="#">DALLAS</a></li>
+        <li><a href="#">CHICAGO</a></li>
+        <li><a href="#">SEATTLE</a></li>
+        <li><a href="#">DENVER</a></li>
+        <li><a href="#">MIAMI</a></li>
+        <li><a href="#">PHOENIX(COMING SOON)</a></li>
+     </ul> 
+     <ul class="r3">
+       <h4>UNITED KINGDOM</h4>
+      <li><a href="#">LONDON</a></li>
+     </ul> 
+        </li>
+        <li>
+          <a href="#">ABOUT</a>
+         </li>
+  </ul>
+</nav>
+  </head>
+
+
+  <body>
+  
+    
+  </body>
+  <script>
+document.getElementById("mobile-icon").onclick = function() {myFunction()};
+
+/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+      
+    for (let i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+    
+
+  </script>
+</html>
