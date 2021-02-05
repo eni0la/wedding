@@ -810,7 +810,7 @@ font-size:1em ;
       opacity: 1;
     }
     .content .content-overlay{
-      opacity: 1;
+      opacity: 0.9;
     }
   }
   
@@ -908,9 +908,9 @@ font-size:1em ;
 #contact li{
   list-style: none;
   color:  rgb(0, 41, 66);
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: lighter;
-  line-height: 40px;
+  line-height: 45px;
   letter-spacing: 1.5px;
 }
 #contact h4{
@@ -932,7 +932,7 @@ font-size:1em ;
 }
 input[type=text] {
   width: 100%;
-  padding: 23px 20px;
+  padding: 30px 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -962,13 +962,13 @@ input[type=submit] {
   #contact{
     display: block;
     height: 125em;
-    margin-bottom: -1.5em;
+    padding-bottom: 4em;
+    margin-bottom: -1em;
   }
   #contact ul{
     margin-bottom: 21em;
   }
   #contact .c4 hr{
-    margin-left: 0.9em;
     width: 90%;
   }
   #contact .c3{
@@ -986,27 +986,10 @@ input[type=submit] {
   text-align: center;
   color: rgb(82, 74, 74);
   font-size: 1.1em;
+  height: 3em;
+  padding-top: 1em;
+  margin-top: -0.3em;
   background-color:rgb(236, 237, 240) ;
 
 
 }
-#icons{
-  display: flex;
-  flex-wrap: wrap;
-  background-color:rgb(236, 237, 240) ;
-justify-content: space-around;
-margin-top: -0.2em;
-padding-top: 1em;
-width: 100%;
-height: 4em;
-}
-#icons img{
-padding-left: 15em; 
-}
-@media screen and (min-width: 900px) {
-  #icons img{
-    padding-left: -12em;  }
-    #icons{
-      height: 5em;
-    }
-  }
