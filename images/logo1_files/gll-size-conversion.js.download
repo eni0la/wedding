@@ -1,0 +1,39 @@
+jQuery(document).ready(function($){
+    $('.size-conversion input').on('change', function(){
+        var parent = $(this).closest('.size-conversion');
+        var unit = $(this).closest('.acf-input').find('.acf-input-append').text();
+        var hidden = parent.find('.size-readonly input');
+        var target = parent.find('input').not(this).not(hidden);
+        var size_name = parent.find('.size-readonly .acf-field').data('name');
+            
+        var value = 0;
+        var conversion = 0;
+        
+        if( unit === 'cm' ){
+            value = $(this).val();
+            conversion = ( $(this).val() / 2.54 ).toFixed(1);
+            target.val( conversion );
+            
+            gll_sizes[size_name].rules.some(function(rule){
+                if( value >= rule.min_cm && value < rule.max_cm ){
+                    hidden.val( rule.size );
+//                     console.log('Waist Size : ' + rule.size);
+                    return true;
+                }
+            });
+            
+        }else{
+            value = $(this).val();
+            conversion = ( $(this).val() * 2.54 ).toFixed(1);
+            target.val( conversion );
+            
+            gll_sizes[size_name].rules.some(function(rule){
+                if( value >= rule.min_in && value < rule.max_in ){
+                    hidden.val( rule.size );
+//                     console.log('Waist Size : ' + rule.size);
+                    return true;
+                }
+            });
+        }  
+    })
+});

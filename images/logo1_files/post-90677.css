@@ -1,0 +1,38 @@
+.elementor-kit-90677{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-328a6d03:#002942;--e-global-color-4879e53a:#F2F2F2;--e-global-color-247be7be:#DDDDDD;--e-global-color-7b08ff7e:#CCCCCC;--e-global-color-2a26b021:#AAAAAA;--e-global-color-2fb74c9f:#999999;--e-global-color-183cd867:#666666;--e-global-color-2bdc2218:#43454B;--e-global-color-379ed027:#000;--e-global-color-4e44dc36:RGBA(0,41,66,0.6);--e-global-color-15cad602:RGBA(0,41,66,0.8);--e-global-color-2ed139a4:#FFF;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;font-family:"Open Sans", Sans-serif;font-size:13px;font-weight:300;line-height:20px;letter-spacing:0.5px;}.elementor-kit-90677 p{margin-bottom:25px;}.elementor-kit-90677 a:hover{color:rgba(0, 41, 66, 0.8);text-decoration:underline;}.elementor-kit-90677 h1{color:#43454B;font-family:"Avenir", Sans-serif;font-size:1.6em;text-transform:uppercase;font-style:normal;letter-spacing:0.9px;}.elementor-kit-90677 h2{color:#999999;font-family:"Avenir", Sans-serif;font-size:21px;text-transform:uppercase;letter-spacing:2px;}.elementor-kit-90677 h3{color:#43454B;font-family:"Avenir", Sans-serif;font-size:25px;text-transform:uppercase;font-style:normal;line-height:1.5em;letter-spacing:0.5px;}.elementor-kit-90677 h6{color:#CCCCCC;font-family:"Avenir", Sans-serif;font-size:12px;font-style:italic;line-height:4.6em;letter-spacing:0.8px;}.elementor-kit-90677 button,.elementor-kit-90677 input[type="button"],.elementor-kit-90677 input[type="submit"],.elementor-kit-90677 .elementor-button{font-family:"Sackers", Sans-serif;font-size:13px;text-transform:uppercase;text-decoration:none;color:#FFFFFF;background-color:#002942;border-radius:0px 0px 0px 0px;}.elementor-kit-90677 button:hover,.elementor-kit-90677 button:focus,.elementor-kit-90677 input[type="button"]:hover,.elementor-kit-90677 input[type="button"]:focus,.elementor-kit-90677 input[type="submit"]:hover,.elementor-kit-90677 input[type="submit"]:focus,.elementor-kit-90677 .elementor-button:hover,.elementor-kit-90677 .elementor-button:focus{color:#FFFFFF;background-color:rgba(0, 41, 66, 0.8);}.elementor-kit-90677 img{border-radius:0px 0px 0px 0px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1550px;}.elementor-widget:not(:last-child){margin-bottom:20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1025px;}}@media(max-width:767px){.elementor-kit-90677{font-size:14px;line-height:1.5em;letter-spacing:0.3px;}.elementor-kit-90677 p{margin-bottom:25px;}.elementor-kit-90677 h1{font-size:25px;line-height:1.5em;letter-spacing:2px;}.elementor-kit-90677 h3{font-size:18px;line-height:1.5em;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:768px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Avenir';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://graceloveslace.com/wp-content/uploads/2019/12/AvenirLTStd-Book.eot');
+	src: url('https://graceloveslace.com/wp-content/uploads/2019/12/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+		url('https://graceloveslace.com/wp-content/uploads/2019/12/AvenirLTStd-Book.woff2') format('woff2'),
+		url('https://graceloveslace.com/wp-content/uploads/2019/12/AvenirLTStd-Book.woff') format('woff'),
+		url('https://graceloveslace.com/wp-content/uploads/2019/12/AvenirLTStd-Book.ttf') format('truetype'),
+		url('https://graceloveslace.com/wp-content/uploads/2019/12/AvenirLTStd-Book.svg#Avenir') format('svg');
+}
+@font-face {
+	font-family: 'Avenir';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://graceloveslace.com/wp-content/uploads/2019/12/AvenirLTStd-Medium.eot');
+	src: url('https://graceloveslace.com/wp-content/uploads/2019/12/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+		url('https://graceloveslace.com/wp-content/uploads/2019/12/AvenirLTStd-Medium.woff2') format('woff2'),
+		url('https://graceloveslace.com/wp-content/uploads/2019/12/AvenirLTStd-Medium.woff') format('woff'),
+		url('https://graceloveslace.com/wp-content/uploads/2019/12/AvenirLTStd-Medium.ttf') format('truetype'),
+		url('https://graceloveslace.com/wp-content/uploads/2019/12/AvenirLTStd-Medium.svg#Avenir') format('svg');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Sackers';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://graceloveslace.com/wp-content/uploads/2019/11/SackersGothicStd-Light.eot');
+	src: url('https://graceloveslace.com/wp-content/uploads/2019/11/SackersGothicStd-Light.eot?#iefix') format('embedded-opentype'),
+		url('https://graceloveslace.com/wp-content/uploads/2019/11/SackersGothicStd-Light.woff2') format('woff2'),
+		url('https://graceloveslace.com/wp-content/uploads/2019/11/SackersGothicStd-Light.woff') format('woff'),
+		url('https://graceloveslace.com/wp-content/uploads/2019/11/SackersGothicStd-Light.ttf') format('truetype'),
+		url('https://graceloveslace.com/wp-content/uploads/2019/11/SackersGothicStd-Light.svg#Sackers') format('svg');
+}
+/* End Custom Fonts CSS */

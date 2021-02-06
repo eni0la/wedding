@@ -387,6 +387,7 @@ p{
   font-style: italic;
 }
 
+
 #hero .container1 {
  
 }
@@ -845,7 +846,7 @@ font-size:1em ;
 #contact li{
   list-style: none;
   color:  rgb(0, 41, 66);
-  font-size: 1.6em;
+  font-size: 1.3em;
   font-family:opensans, sans-serif ;
   font-weight: lighter;
   line-height: 50px;
@@ -856,7 +857,7 @@ font-size:1em ;
   color: rgb(0, 41, 66) ;
   margin-left: 10%;
   margin-top: -7em;
-  font-size: 2.3em;
+  font-size: 2em;
   font-weight: lighter;
   color:  rgb(0, 41, 66);
 
