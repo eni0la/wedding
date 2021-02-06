@@ -31,7 +31,7 @@ body{
 }
 
 .press h5:after {
-  left: 3.1em;
+  left: 1.5em;
   margin-right: -50%;
 }
 .press p{
@@ -112,7 +112,7 @@ transform: translateX(62%);
 }
 
 .press2 h5:after {
-  left: 3.1em;
+  left: 1.5em;
   margin-right: -50%;
 }
 #email{
@@ -170,7 +170,7 @@ line-height: 28px;
 }
 
 .press3 h5:before {
-  right:3.1em;
+  right:1.5em;
   margin-left: -50%;
 }
 
@@ -221,4 +221,13 @@ font-size: 1.1em;
 }
 #map p{
   font-size: 1.05em;
+}
+@media screen and (max-width: 1450px) {
+  #map{
+    display: block;
+  }
+  #map .m1{
+    text-align: center;
+    transform: translateX(105%);
+  }
 }
