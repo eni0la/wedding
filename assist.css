@@ -1,0 +1,224 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: didot, serif;
+  scroll-behavior: smooth !important;
+}
+.press h5 {
+  overflow: hidden;
+  margin-top: 3em;
+  font-weight: 600;
+  font-size:2em ;
+  margin-bottom: 3em;
+  color: rgb(1, 58, 94);
+  text-align: center;
+}
+
+.press h5:before,
+.press h5:after {
+  content: "";
+  display: inline-block;
+  height: 0.2px;
+  position: relative;
+  background-color: rgb(172, 182, 187);
+  vertical-align: middle;
+  width: 30.8%;
+}
+
+.press h5:before {
+  right:3.1em;
+  margin-left: -50%;
+}
+
+.press h5:after {
+  left: 3.1em;
+  margin-right: -50%;
+}
+.press p{
+  text-align: center;
+  font-size: 1.259em;
+  line-height: 32px;
+  font-weight: lighter;
+  color:  rgb(67, 69, 75);
+}
+#hero{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 3.5em;
+  margin-top: 5em;
+  margin-right: 3.5em;
+
+}
+@media screen and (max-width: 1800px) {
+  #hero{
+    display: block;
+  }
+
+}
+#hero img{
+  width:100%;
+  height: auto;
+}
+#hero .text{
+  margin-left: 2em;
+}#hero .text h3{
+  text-align: center;
+  font-size: 2em;
+  color: rgb(1, 58, 94);
+  font-weight: lighter;
+  line-height: 34px;
+}
+#hero .text button{
+  align-items: center;
+transform: translateX(62%);
+  padding: 10px 45px;
+}
+#hero .text a{
+  text-decoration: none;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  color: rgb(1, 58, 94);
+}
+#hero .text p{
+  margin-top: 8em;
+  font-size: 1.2em;
+  line-height: 30px;
+  color: rgb(1, 58, 94);
+  text-align: center;
+}
+.press2 h5 {
+  overflow: hidden;
+  margin-top: 3em;
+  font-size:2em ;
+  margin-bottom: 3em;
+  color: rgb(1, 58, 94);
+  text-align: center;
+}
+
+.press2 h5:before,
+.press2 h5:after {
+  content: "";
+  display: inline-block;
+  height: 0.2px;
+  position: relative;
+  background-color: rgb(172, 182, 187);
+  vertical-align: middle;
+  width: 30.8%;
+}
+
+.press2 h5:before {
+  right:3.1em;
+  margin-left: -50%;
+}
+
+.press2 h5:after {
+  left: 3.1em;
+  margin-right: -50%;
+}
+#email{
+  display: flex;
+  justify-content: center;
+  height: 30em;
+  background-color:  rgb(239, 240, 243);
+  align-items: center;
+}
+#email img{
+  width: 20%;
+  margin-left: 40%;
+}
+#email h4{
+text-align: center;
+color: rgb(67, 69, 75);
+font-size: 1.1em;
+}
+#email p{
+  color: rgb(67, 69, 75);
+  font-size: 1.2em;
+text-align: center;
+letter-spacing: 1px;
+line-height: 28px;
+}
+@media screen and (max-width: 1500px) {
+  #email{
+    display: block;
+    justify-content: space-around;
+    height: 90em;
+  }
+#email img{
+  margin-top: 5.5em;
+  width: 18%;
+}
+}
+.press3 h5 {
+  overflow: hidden;
+  margin-top: 3em;
+  font-size:2em ;
+  margin-bottom: 3em;
+  color: rgb(1, 58, 94);
+  text-align: center;
+}
+
+.press3 h5:before,
+.press3 h5:after {
+  content: "";
+  display: inline-block;
+  height: 0.2px;
+  position: relative;
+  background-color: rgb(172, 182, 187);
+  vertical-align: middle;
+  width: 25.8%;
+}
+
+.press3 h5:before {
+  right:3.1em;
+  margin-left: -50%;
+}
+
+.press3 h5:after {
+  left: 3.1em;
+  margin-right: -50%;
+}
+.para2 p{
+  font-size: 1.5em;
+  color: rgb(1, 58, 94);
+  margin-top: -2em;
+  text-align: center;
+  color: rgb(0, 41, 66);
+  margin-bottom: 5em;
+  font-style: italic;
+}
+.para p{
+  font-size: 1.5em;
+  color: rgb(1, 58, 94);
+  margin-top: -2em;
+  text-align: center;
+  color: rgb(0, 41, 66);
+  margin-bottom: 5em;
+  font-style: italic;
+}
+#map{
+  color: rgb(0, 41, 66);
+  display: flex;
+  width: 100%;
+  margin-left: 1em;
+  margin-right: 1em;
+  justify-content: space-around;
+  align-items: center;
+}
+#map .m1{
+  width: 30%;
+}
+#map .m2 img{
+width: 100%;
+height: auto;
+}
+#map .m1 img{
+  width: 100%;
+  height: auto;
+}
+#map h5{
+font-size: 1.1em;
+}
+#map p{
+  font-size: 1.05em;
+}

@@ -1,0 +1,55 @@
+/* fonts */
+
+@font-face {
+	font-family: 'Avenir Medium';
+	src: url('avenir/AvenirLTStd-Medium.eot');
+	src: url('avenir/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+         url('avenir/AvenirLTStd-Medium.woff2') format('woff2'),
+         url('avenir/AvenirLTStd-Medium.woff') format('woff'),
+         url('avenir/AvenirLTStd-Medium.ttf') format('truetype'),
+         url('avenir/AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir Book';
+	src: url('avenir/AvenirLTStd-Book.eot');
+	src: url('avenir/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+         url('avenir/AvenirLTStd-Book.woff2') format('woff2'),
+         url('avenir/AvenirLTStd-Book.woff') format('woff'),
+         url('avenir/AvenirLTStd-Book.ttf') format('truetype'),
+         url('avenir/AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	
+	font-family: 'didot';
+	src: url('didot/didot.woff2');
+}
+
+@font-face {
+	
+	font-family: 'didot-italic';
+	src: url('didot/didot-italic.woff2');
+}
+
+@font-face {
+	
+	font-family: 'notera';
+	src: url('notera/Notera.woff');
+}
+
+@font-face {
+	
+	font-family: 'opensans';
+	src: url('opensans/OpenSans-Light.woff');
+}
+
+@font-face {
+	
+	font-family: 'sackers';
+	src: url('sackers/sackers.woff2');
+}
