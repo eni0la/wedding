@@ -841,7 +841,7 @@ font-size:1em ;
   font-size: 1.6em;
   font-family:opensans, sans-serif ;
   font-weight: lighter;
-  line-height: 45px;
+  line-height: 50px;
   letter-spacing: 1.5px;
 }
 #contact h4{
@@ -895,11 +895,12 @@ input[type=submit] {
   #contact{
     display: block;
     height: 125em;
-    padding-bottom: 4em;
+    padding-bottom: 10em;
     margin-bottom: -1em;
   }
   #contact ul{
     margin-bottom: 21em;
+    line-height: 50px;
   }
   #contact .c4 hr{
     width: 95%;
@@ -936,7 +937,7 @@ input[type=submit] {
   }
  
  #contact li{
-   font-size: 1.8em;
+   font-size: 2em;
  }
   #contact form{
     width: 90%;
