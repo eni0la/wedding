@@ -446,12 +446,12 @@ p{
 
 @media only screen and (max-width: 1800px) {
   #hero{
-    height: 170em;
+    height: 200em;
   }
   #hero .gallery-item img {
     position: absolute;
     width:90%;
-    height: 110%;
+    height: 75%;
 
   }
   #hero .gallery {
@@ -459,11 +459,11 @@ p{
 
   }
   #hero .name{
-    margin-left: 2em;
+    margin-left: 5em;
 
   }
   #hero button{
-    margin-left: 5em;
+    margin-left: 13em;
   }
   #hero  .title {
     margin-bottom:-9em;
@@ -484,7 +484,7 @@ p{
   display: inline-block;
   height: 0.2px;
   position: relative;
-  background-color: rgb(144, 167, 181);
+  background-color: rgb(114, 126, 133);
   vertical-align: middle;
   width: 36.8%;
 }
@@ -540,7 +540,7 @@ p{
   display: inline-block;
   height: 0.2px;
   position: relative;
-  background-color: rgb(144, 167, 181);
+  background-color: rgb(92, 107, 116);
   vertical-align: middle;
   width: 11%;
 }
@@ -816,6 +816,9 @@ font-size:1em ;
   margin-bottom: 7em;
   color: #000;
 }
+#shop a{
+  text-decoration-color: #000;
+}
 @media screen and (max-width: 1200px) {
   #shop{
     display: block;
@@ -895,7 +898,7 @@ input[type=submit] {
   #contact{
     display: block;
     height: 125em;
-    padding-bottom: 10em;
+    padding-bottom: 20em;
     margin-bottom: -1em;
   }
   #contact ul{
