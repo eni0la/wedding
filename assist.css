@@ -148,6 +148,9 @@ line-height: 28px;
   margin-top: 5.5em;
   width: 18%;
 }
+#email p{
+  font-size: 1.5em;
+}
 }
 .press3 h5 {
   overflow: hidden;
@@ -187,6 +190,7 @@ line-height: 28px;
   margin-bottom: 5em;
   font-style: italic;
 }
+
 .para p{
   font-size: 1.5em;
   color: rgb(1, 58, 94);
@@ -196,6 +200,16 @@ line-height: 28px;
   margin-bottom: 5em;
   font-style: italic;
 }
+  @media screen and (max-width: 1500px) {
+    .para p{
+      margin-left:3em;
+      margin-right:3em;
+    }
+    .para2 p{
+      margin-left:3em;
+      margin-right:3em;
+    }
+  }
 #map{
   color: rgb(0, 41, 66);
   display: flex;
