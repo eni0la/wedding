@@ -65,8 +65,8 @@ body{
   text-align: center;
   font-size: 2em;
   color: rgb(1, 58, 94);
-  font-weight: lighter;
-  line-height: 37px;
+  font-weight: bold;
+  line-height: 40px;
 }
 
 #hero .text a{
@@ -76,7 +76,7 @@ body{
   color: rgb(1, 58, 94);
 }
 #hero .text p{
-  margin-top: 8em;
+  margin-top: 3em;
   font-size: 1.2em;
   line-height: 30px;
   color: rgb(1, 58, 94);
