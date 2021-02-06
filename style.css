@@ -459,11 +459,15 @@ p{
 
   }
   #hero .name{
-    margin-left: 4em;
-
+    margin-left: 1em;
+    font-size: 5em;
+    margin-right: -3em;
   }
   #hero button{
-    margin-left: 13em;
+    margin-left: 5em;
+    margin-right: -7em;
+    font-size: 1.5em;
+    padding: 10px 90px;
   }
   #hero  .title {
     margin-bottom:-9em;
