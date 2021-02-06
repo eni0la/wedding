@@ -149,7 +149,10 @@ line-height: 28px;
   width: 18%;
 }
 #email p{
-  font-size: 1.6em;
+  font-size: 1.8em;
+}
+#email h4{
+  font-size: 1.5em;
 }
 }
 .press3 h5 {
@@ -249,9 +252,9 @@ font-size: 1.1em;
     margin-bottom: 5em;
   }
   #map p{
-    font-size: 1.3em;
+    font-size: 1.7em;
   }
   #map h5{
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
 }
