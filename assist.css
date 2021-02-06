@@ -129,7 +129,7 @@ transform: translateX(50%);
 #email h4{
 text-align: center;
 color: rgb(67, 69, 75);
-font-size: 1.1em;
+font-size: 1.2em;
 }
 #email p{
   color: rgb(67, 69, 75);
@@ -149,7 +149,7 @@ line-height: 28px;
   width: 18%;
 }
 #email p{
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 }
 .press3 h5 {
@@ -234,15 +234,24 @@ height: auto;
 font-size: 1.1em;
 }
 #map p{
-  font-size: 1.05em;
+  font-size: 1.1em;
 }
 @media screen and (max-width: 1450px) {
   #map{
     display: block;
   }
+  #map .m1 img{
+    width: 100%;
+  }
   #map .m1{
     text-align: center;
     transform: translateX(105%);
     margin-bottom: 5em;
+  }
+  #map p{
+    font-size: 1.3em;
+  }
+  #map h5{
+    font-size: 1.4em;
   }
 }
