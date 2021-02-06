@@ -19,6 +19,14 @@ font-family: didot-italic, serif;
 	letter-spacing: 0.3px;
 	font-style: italic;
 }
+@media screen and (max-width: 1300px) {
+	p{
+		font-size: 1.3em;
+	}
+	h6{
+font-size: 1.5em;
+	}
+}
 a{
 	text-decoration: none;
 	color: rgb(67, 69, 75);
@@ -49,15 +57,23 @@ color: rgb(0, 41, 66);
 	letter-spacing: 0.9px;
 	margin-right: 9em;
 }
+@media screen and (max-width: 1300px) {
+	#find p{
+		margin-left: 3em;
+		margin-right: 3em;
+		font-size: 1.5em;
+	}
+}
+
 .container h4{
 	text-align: center;
 	font-weight: bolder;
 	color: rgb(0, 41, 66);
-	font-size: 1.5em;
+	font-size: 1.6em;
 	margin-bottom: -0.2em;
 }
 .container p{
-font-size: 1.2em;
+font-size: 1.3em;
 font-weight: lighter;
 font-style: normal;
 color: rgb(0, 41, 66);
