@@ -66,7 +66,7 @@ body{
   font-size: 2em;
   color: rgb(1, 58, 94);
   font-weight: lighter;
-  line-height: 34px;
+  line-height: 37px;
 }
 #hero .text button{
   text-align: center;
@@ -118,7 +118,7 @@ transform: translateX(50%);
 #email{
   display: flex;
   justify-content: center;
-  height: 30em;
+  height: 35em;
   background-color:  rgb(239, 240, 243);
   align-items: center;
 }
@@ -142,17 +142,18 @@ line-height: 28px;
   #email{
     display: block;
     justify-content: space-around;
-    height: 90em;
+    height: 99em;
   }
 #email img{
   margin-top: 5.5em;
   width: 18%;
 }
 #email p{
-  font-size: 1.8em;
+  font-size: 1.9em;
+  line-height: 30px;
 }
 #email h4{
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 }
 .press3 h5 {
@@ -228,6 +229,8 @@ line-height: 28px;
 #map .m2 img{
 width: 100%;
 height: auto;
+margin-left: 2em;
+margin-right: 3em;
 }
 #map .m1 img{
   width: 100%;
@@ -244,7 +247,8 @@ font-size: 1.1em;
     display: block;
   }
   #map .m1 img{
-    width: 100%;
+    width: 200%;
+    margin-left: -8em;
   }
   #map .m1{
     text-align: center;
@@ -252,9 +256,9 @@ font-size: 1.1em;
     margin-bottom: 5em;
   }
   #map p{
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
   #map h5{
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
 }
