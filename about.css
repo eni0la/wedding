@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: didot, serif;
+  scroll-behavior: smooth !important;
+}
+#hero{
+  display: flex;
+  justify-content: space-around;
+  
+}
+#hero .text{
+width: 40%;
+font-family: Avenir, sans-serif;
+color:  rgb(67, 69, 75);
+margin-top: 6em;
+line-height: 35px;
+font-weight: 50;
+}
+#hero .text p{
+font-size: 1.6em;
+}
+#hero .image img{
+width: 100%;
+height: auto;
+}
