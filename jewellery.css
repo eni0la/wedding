@@ -238,9 +238,7 @@ margin-top: -0.1em;
   #contact .c3{
   margin-left: 1em;
   }
-  #contact .c4{
-  margin-left: 4em;
-  }
+
   @media screen and (max-width: 1450px) {
   #contact{
     display: block;

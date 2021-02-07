@@ -238,13 +238,11 @@ input[type=submit] {
 #contact .c3{
   margin-left: 1em;
 }
-#contact .c4{
-  margin-left: 4em;
-}
+
 @media screen and (max-width: 1450px) {
   #contact{
     display: block;
-    height: 125em;
+    height: 85em;
     padding-bottom: 20em;
     margin-bottom: -1em;
   }
