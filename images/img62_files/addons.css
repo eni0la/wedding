@@ -1,6 +1,0 @@
-.wc-price-based-country-refresh-area[data-area="addon"]:not(.refreshed) {
-	visibility: hidden;
-}
-.wc-price-based-country-addons-total-wrapper.loading{
-	visibility: hidden;
-}
