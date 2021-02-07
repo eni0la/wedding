@@ -71,6 +71,11 @@ color:  rgb(0, 41, 66);
   color:  rgb(0, 41, 66);
   font-style: italic;
 } 
+.img img{
+  width: 100%;
+  margin-top: 5em;
+  height: auto;
+}
 @media screen and (max-width: 900px) {
   .room h5:after {
     content: "";
