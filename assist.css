@@ -378,7 +378,7 @@ input[type=submit] {
 @media screen and (max-width: 1450px) {
   #contact{
     display: block;
-    height: 125em;
+    height: 85em;
     padding-bottom: 20em;
     margin-bottom: -1em;
   }
