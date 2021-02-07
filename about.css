@@ -200,12 +200,14 @@ font-style: italic;
   margin-top: 6px;
   font-size: 1.15em;
   letter-spacing: 2px;
+  margin-left: 2em;
   margin-bottom: 16px;
   resize: vertical;
   }
   
   input[type=submit] {
   background-color: transparent;
+  margin-left: 2em;
   color:  rgb(0, 41, 66);
   font-size: 1.1em;
   padding: 23px 65px;

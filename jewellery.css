@@ -221,6 +221,7 @@ margin-top: -0.1em;
   box-sizing: border-box;
   margin-top: 6px;
   font-size: 1.15em;
+  margin-left: 2em;
   letter-spacing: 2px;
   margin-bottom: 16px;
   resize: vertical;
@@ -228,6 +229,7 @@ margin-top: -0.1em;
   
   input[type=submit] {
   background-color: transparent;
+  margin-left: 2em;
   color:  rgb(0, 41, 66);
   font-size: 1.1em;
   padding: 23px 65px;

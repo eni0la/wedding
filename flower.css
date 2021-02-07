@@ -224,6 +224,7 @@ margin-top: -0.1em;
   letter-spacing: 2px;
   margin-bottom: 16px;
   resize: vertical;
+  margin-left: 2em;
   }
   
   input[type=submit] {
@@ -231,6 +232,7 @@ margin-top: -0.1em;
   color:  rgb(0, 41, 66);
   font-size: 1.1em;
   padding: 23px 65px;
+  margin-left: 2em;
   border: 1px solid rgb(0, 41, 66);
   border-radius: 4px;
   cursor: pointer;

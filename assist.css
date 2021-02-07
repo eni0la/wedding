@@ -353,6 +353,7 @@ input[type=text] {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  margin-left: 2em;
   margin-top: 6px;
   font-size: 1.15em;
   letter-spacing: 2px;
@@ -362,6 +363,7 @@ input[type=text] {
 
 input[type=submit] {
   background-color: transparent;
+  margin-left: 2em;
   color:  rgb(0, 41, 66);
   font-size: 1.1em;
   padding: 23px 65px;

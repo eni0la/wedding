@@ -223,11 +223,13 @@ margin-top: -0.1em;
   font-size: 1.15em;
   letter-spacing: 2px;
   margin-bottom: 16px;
+  margin-left: 2em;
   resize: vertical;
   }
   
   input[type=submit] {
   background-color: transparent;
+  margin-left: 2em;
   color:  rgb(0, 41, 66);
   font-size: 1.1em;
   padding: 23px 65px;

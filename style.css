@@ -880,6 +880,7 @@ input[type=text] {
   margin-top: 6px;
   font-size: 1.15em;
   letter-spacing: 2px;
+  margin-left: 2em;
   margin-bottom: 16px;
   resize: vertical;
 }
@@ -887,6 +888,7 @@ input[type=text] {
 input[type=submit] {
   background-color: transparent;
   color:  rgb(0, 41, 66);
+  margin-left: 2em;
   font-size: 1.1em;
   padding: 23px 65px;
   border: 1px solid rgb(0, 41, 66);
