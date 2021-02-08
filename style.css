@@ -296,18 +296,8 @@ body{
 
 
 }
-.mia p{
-  margin-top: -8em;
-  font-size: 7em;
-  color: #fff;
-  margin-bottom: 6em;
-}
-@media only screen and (max-width: 1600px) {
-  .mia p{
-    font-size: 6em;
-    padding-top: 01em;
-  }
-}
+
+
 
 
 
