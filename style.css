@@ -82,6 +82,8 @@ tznav a {
 	padding:14px 14px;	
 	color: rgb(0, 41, 66);
   font-size:2em;
+  font-weight: bold;
+  margin-top: 0.2em;
 
 	text-decoration:none;
 }
@@ -205,7 +207,7 @@ li > a:only-child:after { content: ''; }
   tznav ul ul ul a{
 		padding:14px 20px;	
     color: rgb(1, 58, 94);
-    font-size:1.8em; 
+    font-size:1.6em; 
     margin-bottom: 1em;
 	}
   
