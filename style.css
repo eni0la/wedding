@@ -172,7 +172,7 @@ li > a:only-child:after { content: ''; }
 	}
 
 	.toggle:hover {
-    background-color: rgb(144, 167, 181)
+    background-color: #fff;
 	}
 
 	/* Display Dropdown when clicked on Parent Lable */
@@ -205,7 +205,8 @@ li > a:only-child:after { content: ''; }
   tznav ul ul ul a{
 		padding:14px 20px;	
     color: rgb(1, 58, 94);
-		font-size:1.5em; 
+    font-size:1.2em; 
+    margin-bottom: 1em;
 	}
   
   
