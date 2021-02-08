@@ -297,7 +297,11 @@ body{
 
 }
 
-
+@media only screen and (max-width: 1200px) {
+  .mia img{
+    margin-bottom: -3em;
+  }
+}
 
 
 
