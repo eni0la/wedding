@@ -402,12 +402,13 @@ p{
 
 @media only screen and (max-width: 1800px) {
   #hero{
-    height: 170em;
+    height: 200em;
+    
   }
   #hero .gallery-item img {
     position: absolute;
-    width:90%;
-    height: 70%;
+    width:100%;
+    height: auto;
 
   }
   #hero .gallery {
