@@ -105,6 +105,9 @@ margin-top: -0.1em;
   justify-content: center;
   flex-wrap: wrap;
 }
+.item  h4{
+  margin-bottom: 0.5em;
+}
 .item {
   min-width: 0;
   margin:5px;

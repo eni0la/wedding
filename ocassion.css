@@ -85,6 +85,9 @@ font-weight: bold;
 font-style: normal;
 margin-top: -0.1em;
 }
+.item  h4{
+  margin-bottom: 0.5em;
+}
 
 .intro, .credit {
   display: flex;

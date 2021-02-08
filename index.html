@@ -2,97 +2,75 @@
 <html>
   <head>
 <link rel="stylesheet" href="./style.css">
-    <!-- the menu starts here -->
-     <!--<div class="navbar">
-  
-      <label for="togglericon" class="toggler" checked></label>
-      <input type="checkbox" id="togglericon" class="toggler" />
-  
-      <div class="brand">
-        <span class="brand-icon">⚛</span>
-        <span class="brand-name">MIA LACE COLLECTIONS</span>
-      </div>
-  
-      <div class="nav">
-      
-  
-        
-        <div class="dropdown">
-          <label for="toggle-1">SHOP</label>
-          <input type="checkbox" id="toggle-1" />
-          <ul>
-            <h3>WEDDING DRESSES</h3>
-            <li><a href="#">Internet Of Things</a></li>
-            <li><a href="#">Game Development</a></li>
-            <li><a href="#">Game Design</a></li>
-            <li><a href="#">History Telling</a></li>
-          </ul>
-          <ul>
-            <h3>WEDDING DRESSES</h3>
-            <li><a href="#">Internet Of Things</a></li>
-            <li><a href="#">Game Development</a></li>
-            <li><a href="#">Game Design</a></li>
-            <li><a href="#">History Telling</a></li>
-          </ul>
-          <ul>
-            <h3>WEDDING DRESSES</h3>
-            <li><a href="#">Internet Of Things</a></li>
-            <li><a href="#">Game Development</a></li>
-            <li><a href="#">Game Design</a></li>
-            <li><a href="#">History Telling</a></li>
-          </ul>
-        </div>
-        <div class="dropdown">
-          <label for="toggle-2">ONLINE ASSISTANCE</label>
-          <input type="checkbox" id="toggle-2" />
-          <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Tiktok</a></li>
-            <li><a href="#">Medium</a></li>
-          </ul>
-        </div>
-        <div class="dropdown">
-          <label for="toggle-3">GLL BRIDES</label>
-          <input type="checkbox" id="toggle-3" />
-          <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Tiktok</a></li>
-            <li><a href="#">Medium</a></li>
-          </ul>
-        </div>
-        <a href="#top">JOURNAL</a>
-        <div class="dropdown">
-          <label for="toggle-4">SHOWROOMS</label>
-          <input type="checkbox" id="toggle-4" />
-          <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Tiktok</a></li>
-            <li><a href="#">Medium</a></li>
-          </ul>
-        </div>
-        <a href="#about">ABOUT</a>
-        <form>
-          <input type="text" placeholder="search" name="search" />
-          <button>🔎</button>
-        </form>
-      </div>
-    </div> -->
+
+
   </head> 
-<body> 
-  <a href="./shop.html">SHOP</a>
-  <a href="./assist.html">ASSIST</a>
-  <a href="./about.html">ABOUT</a>
-  <a href="./contact.html">CONTACT</a>
-  <a href="./ocassion.html">OCCASSION</a>
-  <a href="./veils.html">VEILS</a>
-  <a href="./shoes.html">SHOES</a>
-  <a href="./flower.html">FLOWER</a>
-  <a href="./jewellery.html">JEWELLERY</a>
-  <a href="./cape.html">CAPES</a>
-  <a href="./online.html">ONLINE</a>
+  <section id="menu-nav">
+      <div>
+<tznav>
+          <div id="navLogo"><img src="./images/icon12.png" style="width: 15%; margin-top: 0.1em; margin-left: 2em;"></div>
+        <label for="drop" class="toggle" style="font-size: 2em; font-weight: bolder; margin-left:22em; margin-top: -1em;">&#9776; Menu </label>
+        <input type="checkbox" id="drop" />
+            <ul class="tzmenu">
+                
+                <li id="large">
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-1" class="toggle" style="font-size: 1.8em; font-weight: lighter; letter-spacing: 1.2px;">SHOP ></label>
+                    <a href="./shop.html">SHOP</a>
+                    <input type="checkbox" id="drop-1"/>
+                    <ul>
+                        <li><a href="./shop.html">WEDDING DRESSSES</a></li>
+                        <li><a href="./ocassion.html">BRIDESMAID & OCCASIONWEAR</a></li>
+                        <li><a href="./veils.html">VEILS & HAIR</a></li>
+                      <li><a href="./shoes.html">SHOES & ACCESSORIES</a></li>
+                      <li><a href="./flower.html">FLOWERGIRL & OCCASIONWEAR</a></li>
+                      <li><a href="./jewellery.html">JEWELLERY</a></li>
+                      <li><a href="./cape.html">CAPES & ROBES</a></li>
+                      <li><a href="./online.html">ONLINE SAMPLE</a></li>
+                    </ul> 
+<li><a href="./assist.html">BOOK AN APPOINTMENT</a></li>
+                </li>
+         
+                <li><a href="#">JOURNAL</a></li>
+                    <!-- Second Tier Drop Down      
+                    <label for="drop-3" class="toggle">Expanded Menu ></label>
+                    <a href="#">Expanded Menu</a>         
+                    <input type="checkbox" id="drop-3"/>
+
+                    <ul>
+                        <li><a href="#">Expanded Menu-a</a></li>
+                        <li><a href="#">Expanded Menu-a</a></li>
+                        <li><a href="#">Expanded Menu-a</a></li>
+                    </ul>
+ -->  
+
+                <li>
+                           
+                    <a href="#">BRIDES GALLERY</a>
+                    <input type="checkbox" id="drop-1"/>
+                    <ul>
+                     
+                        
+                        
+                    </ul> 
+          </li>
+                
+               
+                <li><a href="./contact.html">CONTACT</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                
+            </ul>
+<!-- Phone location if needed
+          <div id="navPhone">866-611-7362</div>
+-->
+        </tznav>
+</div>
+</section>
+<hr style="width: 100%; margin-top: 0.5em;">
+
+
+    <body> 
+      
   <h3>MULTI-AWARD WINNING BRIDAL</h3>
   <p>Handmade in Australia for the women of style, substance and passion</p>
   <section id="hero">
@@ -146,19 +124,7 @@
   
   <section id="countries">
   
-  <div class="container">
-    <h3 class="title">LOS ANGELES</h3>
-    <div class="content">
-      <a href="#" target="_blank">
-        <div class="content-overlay"></div>
-      <img class="content-image" src="./images/img20.jpg">
-      <div class="content-details fadeIn-bottom">
-        <h3 class="content-title">LOS ANGELES</h3>
-        <p class="content-text"><button>BOOK AN APPOINTMENT</button></p>
-      </div>
-    </a>
-  </div>
-</div>
+
 
 <div class="container">
   <h3 class="title">SAN DIEGO</h3>
@@ -187,75 +153,9 @@
     </a>
   </div>
 </div>
-<div class="container">
-  <h3 class="title">NEW YORK</h3>
-  <div class="content">
-    <a href="#" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="./images/img28.jpg">
-      <div class="content-details fadeIn-right">
-        <h3>NEW YORK</h3>
-        <p><button>BOOK AN APPOINTMENT</button></p>
-      </div>
-    </a>
-  </div>
-</div>
 
-<div class="container">
-  <h3 class="title">MELBOURNE</h3>
-  <div class="content">
-    <a href="#" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="images/img24.jpg">
-      <div class="content-details fadeIn-top fadeIn-left">
-        <h3>MELBOURNE</h3>
-        <p><button>BOOK AN APPOINTMENT</button></p>
-      </div>
-    </a>
-  </div>
-</div>
 
-<div class="container">
-  <h3 class="title">PHEONIX</h3>
-  <div class="content">
-    <a href="#" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="./images/img25.jpg">
-      <div class="content-details fadeIn-top fadeIn-right">
-        <h3>PHEONIX</h3>
-        <p><button>BOOK AN APPOINTMENT</button></p>
-      </div>
-    </a>
-  </div>
-</div>
 
-<div class="container">
-  <h3 class="title">SYDNEY</h3>
-  <div class="content">
-    <a href="#" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="./images/img23.jpg">
-      <div class="content-details fadeIn-bottom fadeIn-left">
-        <h3>SYDNEY</h3>
-        <p><button>BOOK AN APPOINTMENT</button></p>
-      </div>
-    </a>
-  </div>
-</div>
-
-<div class="container">
-  <h3 class="title">DENVER</h3>
-  <div class="content">
-    <a href="" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="./images/img27.jpg">
-      <div class="content-details fadeIn-bottom fadeIn-right">
-        <h3>DENVER</h3>
-        <p><button>BOOK AN APPOINTMENT</button></p>
-      </div>
-    </a>
-  </div>
-</div>
 <div class="container" style="margin-bottom: 6em;">
   <h3 class="title">ONLINE</h3>
   <div class="content">
@@ -332,5 +232,6 @@
 <hr>
 <div class="foot">&copy; .Mia Lace Collections. All rights reserved. | Terms and Conditions | Privacy </div>
 </body>
+
 
 </html>
