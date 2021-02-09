@@ -8,11 +8,11 @@ h3{
 	text-align: center;
 	font-size: 3em;
 	font-weight: lighter;
-	color:  rgb(0, 41, 66);
+  color:  rgb(67, 69, 75);
 }
 p{
 	text-align: center;
-	color:  rgb(0, 41, 66);
+  color:  rgb(67, 69, 75);
 font-family: didot-italic, serif;
 	font-size: 1.5em;
 	line-height: 30px;
@@ -43,7 +43,7 @@ h6{
 #find h3{
 font-weight: 600;
 font-size: 1.9em;
-color: rgb(0, 41, 66);
+color:  rgb(67, 69, 75);
 }
 #find p{
 	font-style: normal;
@@ -68,7 +68,7 @@ color: rgb(0, 41, 66);
 .container h4{
 	text-align: center;
 	font-weight: bolder;
-	color: rgb(0, 41, 66);
+  color:  rgb(67, 69, 75);
 	font-size: 1.6em;
 	margin-bottom: -0.2em;
 }
@@ -76,7 +76,7 @@ color: rgb(0, 41, 66);
 font-size: 1.3em;
 font-weight: lighter;
 font-style: normal;
-color: rgb(0, 41, 66);
+color:  rgb(67, 69, 75);
 }
 .container .price{
 text-align: center;
