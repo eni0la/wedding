@@ -36,7 +36,7 @@ body{
 }
 .press p{
   text-align: center;
-  font-size: 1.35em;
+  font-size: 1.45em;
   line-height: 32px;
   font-weight: lighter;
   color:  rgb(67, 69, 75);
@@ -77,7 +77,7 @@ body{
 }
 #hero .text p{
   margin-top: 3em;
-  font-size: 1.35em;
+  font-size: 1.45em;
   line-height: 30px;
   color:  rgb(67, 69, 75);
   text-align: center;
