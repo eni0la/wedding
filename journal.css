@@ -7,7 +7,8 @@ body{
 .top h2{
   font-size: 5em;
   text-align: center;
-  color: rgb(1, 58, 94);
+  color:  rgb(67, 69, 75);
+  margin-top: 2em;
   letter-spacing: 1px;
 
 }
@@ -27,12 +28,12 @@ height: auto;
 }
 .hero h5{
 text-align: center;
-color: rgb(1, 58, 94);
+color:  rgb(67, 69, 75);
 font-weight: lighter;
 font-size: 1em;
 }
 .hero h3{
-  color: rgb(1, 58, 94);
+  color:  rgb(67, 69, 75);
   margin-left: 1em;
   margin-right: 1em;
   text-align: center;
@@ -43,7 +44,7 @@ font-size: 1em;
   margin-left: 2em;
   margin-right: 2em;
   text-align: center;
-  color: rgb(1, 58, 94);
+  color:  rgb(67, 69, 75);
   font-size: 1.5em;
   letter-spacing: 1px;
   margin-bottom: 3em;
