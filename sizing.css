@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: didot, sans-serif;
+  scroll-behavior: smooth !important;
+}
+h3{
+  font-size: 3em;
+  text-align: center;
+  color:  rgb(67, 69, 75);
+}
+.order h4{
+  font-size: 1.7em;
+  text-align: center;
+  color:  rgb(67, 69, 75);
+}
+.order p{
+  font-size: 1.4em;
+  margin-left: 3em;
+  margin-right: 3em;
+  text-align: center;
+  color:  rgb(67, 69, 75);
+}
+.order a{
+  color:  rgb(67, 69, 75);
+}
