@@ -155,133 +155,275 @@ margin-top: -0.1em;
     margin-bottom: 4em;
   }
 }
-#contact{
-  background-color:rgb(236, 237, 240) ;
-  height: 40em;
-  margin-top: 7em;
-  margin-bottom: -1em;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  }
-  #contact li{
+a {
+  text-decoration: none;
+}
+
+ul {
   list-style: none;
-  color:  rgb(0, 41, 66);
-  font-size: 1.3em;
-  font-family:opensans, sans-serif ;
-  font-weight: lighter;
-  line-height: 50px;
-  letter-spacing: 1.5px;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/** header */
+header {
+  height: 100px;
+  padding: 0 6rem;
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    padding: 0 3rem;
   }
-  #contact h4{
-  text-align: left;
-  color: rgb(0, 41, 66) ;
-  margin-left: 10%;
-  margin-top: -7em;
-  font-size: 2em;
-  font-weight: lighter;
-  color:  rgb(0, 41, 66);
-  
+}
+
+header a {
+  color: #000;
+}
+
+header nav {
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav .logo img {
+  width: 50px;
+}
+
+header nav ul li {
+  display: inline-block;
+  position: relative;
+  padding: 0 2px;
+}
+
+
+header nav ul li:hover > a {
+  color: #555;
+}
+
+header nav ul li a {
+  position: relative;
+}
+
+
+header nav ul li:not(:last-of-type) {
+  margin-right: 1.5rem;
+}
+
+header nav ul li:not(:last-of-type).has-children {
+  margin-right: 2rem;
+}
+
+header nav ul li > ul {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  background: #fff;
+  padding: 20px;
+  min-width: 250px;
+  border: 1px solid #fcfcfc;
+  left: -5px;
+}
+
+header nav ul li > ul li {
+  padding: 8px 10px;
+}
+
+@media screen and (min-width: 851px) {
+  header nav ul li:hover > ul {
+    display: block;
   }
-  #contact hr{
-  margin-top: -2em;
-  margin-left: 2.5em;
-  color:  rgb(0, 41, 66);
-  }
-  #contact h4{
-  padding-top: 3em;
-  font-weight: bolder;
-  }
-  input[type=text] {
-  width: 100%;
-  padding: 30px 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  font-size: 1.15em;
-  letter-spacing: 2px;
-  margin-bottom: 16px;
-  resize: vertical;
-  margin-left: 2em;
-  }
-  
-  input[type=submit] {
-  background-color: transparent;
-  color:  rgb(0, 41, 66);
-  font-size: 1.1em;
-  padding: 23px 65px;
-  margin-left: 2em;
-  border: 1px solid rgb(0, 41, 66);
-  border-radius: 4px;
-  cursor: pointer;
-  }
-  #contact .c3{
-  margin-left: 1em;
+}
+
+header .mobile-menu {
+  font-size: 3rem;
+  display: none;
+  padding: 0 2px;
+}
+
+@media screen and (max-width: 850px) {
+  header {
+    padding: 0 2rem;
   }
 
-  @media screen and (max-width: 1450px) {
-  #contact{
+  header nav .mobile-menu {
     display: block;
-    height: 85em;
-    padding-bottom: 20em;
-    margin-top: 21em;
-    margin-bottom: -1em;
+    position: fixed;
+    z-index: 10;
+    right: 2rem;
+    top: 1rem;
   }
-  #contact ul{
-    margin-bottom: 21em;
-    line-height: 50px;
-  }
-  #contact .c4 hr{
-    width: 95%;
-    margin-left: -3em;
-  }
-  #contact .c3{
-    width: 90%;
-  }
-  input[type=text] {
+
+  header nav ul {
+    left: 0;
+    top: 0;
+    padding: 4rem 15px 30px;
+    overflow-y: auto;
+    height: 100%;
     width: 100%;
-    padding: 30px 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    font-size: 1.5em;
-    letter-spacing: 2px;
-    margin-bottom: 16px;
-    resize: vertical;
+    display: none;
+    background: #fff;
+    position: fixed;
+    z-index: 9;
+    border: 1px solid #fcfcfc;
   }
-  
-  input[type=submit] {
-    background-color: transparent;
-    color:  rgb(0, 41, 66);
-    font-size: 1.5em;
-    padding: 23px 65px;
-    border: 1px solid rgb(0, 41, 66);
-    border-radius: 4px;
-    cursor: pointer;
+
+  header nav > ul.expanded {
+    display: block;
   }
-  #contact h4{
-    padding-top: 2em;
-    font-weight: bolder;
+
+
+  header nav ul li {
+    margin: 0;
+    display: block ;
+    padding: 10px 15px;
   }
-  
-  #contact li{
-   font-size: 2em;
+
+  header nav ul li.has-children  > ul {
+    position: relative;
+    width: calc(100vw - 2rem);
+    top: 0;
   }
-  #contact form{
-    width: 90%;
+
+  header nav ul li.has-children > ul.expanded {
+    display: block;
   }
+
+}
+
+/* Footer */
+footer {
+  padding: 3rem 6rem;
+  background: #ECEDF0;
+}
+
+footer a {
+  color: #000;
+}
+
+footer a:hover {
+  color: #555;
+}
+
+footer > .copyright {
+  padding: 2rem 0;
+  font-family: didot, serif;
+}
+
+footer > .row {
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: repeat(2, 25%) 1fr;
+}
+
+@media screen and (max-width: 1000px) {
+  footer {
+    padding: 3rem 4rem;
   }
-  .foot{
-  text-align: center;
-  color: rgb(82, 74, 74);
-  font-size: 1.1em;
-  height: 4em;
-  padding-top: 1em;
-  margin-top: -0.3em;
-  background-color:rgb(236, 237, 240) ;
-  
-  
+
+  footer > .row {
+    grid-gap: 2rem;
   }
+}
+
+@media screen and (max-width: 800px) {
+  footer {
+    padding: 3rem 2rem;
+  }
+
+  footer > .row {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 650px) and (min-width: 481px) {
+  footer {
+    padding: 3rem 2.5rem;
+  }
+
+  footer > .row .col:last-of-type {
+    grid-area: 2 / 1 / 3 / 3;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    padding: 3rem 2.5rem;
+  }
+
+  footer > .row {
+    grid-gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  footer > .row .col {
+    height: auto;
+  }
+}
+
+footer > .row .col h2 {
+  position: relative;
+  margin-bottom: 2rem;
+  padding: .4rem 0;
+  color: #000;
+}
+
+footer > .row .col h2::after {
+  content: ' ';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;;
+  height: 3px;
+  background: #000;
+}
+
+footer > .row .col li {
+  margin-bottom: .8rem;
+}
+
+
+footer > .row .col.footer__contact form .input__group {
+  margin-bottom: 1rem;
+}
+
+footer > .row .col.footer__contact form .input__group label {
+  margin-bottom: .8rem;
+  display: block;
+  color: #555;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+
+footer > .row .col.footer__contact form .input__group input {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  height: 44px;
+  padding: 0 15px;
+  border: 1px solid #000;
+}
+
+footer > .row .col.footer__contact form button[type=submit] {
+  height: 44px;
+  cursor: pointer;
+  padding: 10px 40px;
+  background: transparent;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  transition: .2s linear;
+}
+
+footer > .row .col.footer__contact form button[type=submit]:hover {
+  color: #fff;
+  background: #000;
+}
   

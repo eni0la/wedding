@@ -4,6 +4,28 @@
 <link rel="stylesheet" href="./css/contact.css">
   </head>
   <body>
+    <header>
+      <nav>
+        <a href="."  class="logo">
+          <img src="./images/icon12.png" alt="Logo" />
+        </a>
+  
+        <a href="#" class="mobile-menu" role="button">
+          &#8801;
+        </a>
+  
+        <ul>
+          <li class="has-children"><a href="./shop.html">Shop</a>
+          </li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./assist.html">Book An Appointment</a></li>
+          <li><a href="./brides.html">Brides Gallery</a></li>
+          <li><a href="./journal.html">Journal</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+  
+      </nav>
+    </header>
 <div class="talk">
   <h3>LET'S TALK</h3>
   <p>For styling advice, ordering, sales advice and general enquiries,<br>
@@ -40,13 +62,13 @@
 
 
 <div class="container">
- <h3 class="title">SAN DIEGO</h3>
+ <h3 class="title">UTAH</h3>
  <div class="content">
    <a href="#" target="_blank">
      <div class="content-overlay"></div>
      <img class="content-image" src="./images/img21.jpg">
      <div class="content-details fadeIn-top">
-       <h3>SAN DIEGO</h3>
+       <h3>UTAH</h3>
        <p><button>BOOK AN APPOINTMENT</button></p>
      </div>
    </a>
@@ -54,13 +76,13 @@
 </div>
 
 <div class="container">
- <h3 class="title">CHICAGO</h3>
+ <h3 class="title">FLORIDA</h3>
  <div class="content">
    <a href="#" target="_blank">
      <div class="content-overlay"></div>
      <img class="content-image" src="./images/img22.jpg">
      <div class="content-details fadeIn-left">
-       <h3>CHICAGO</h3>
+       <h3>FLORIDA</h3>
        <p><button>BOOK AN APPOINTMENT</button></p>
      </div>
    </a>
@@ -68,13 +90,13 @@
 </div>
 
 <div class="container" style="margin-bottom: 6em;">
- <h3 class="title">ONLINE</h3>
+ <h3 class="title">MARYLAND</h3>
  <div class="content">
    <a href="" target="_blank">
      <div class="content-overlay"></div>
      <img class="content-image" src="./images/img27.jpg">
      <div class="content-details fadeIn-bottom fadeIn-right">
-       <h3>ONLINE</h3>
+       <h3>MARYLAND</h3>
        <p><button>BOOK AN APPOINTMENT</button></p>
      </div>
    </a>
@@ -102,46 +124,45 @@
    <a href="#"><h6>BOOK AN APPOINTMENT</h6></a>
  </div>
 </section>
-<section id="contact">
- <div class="c1">
-<h4>SHOP</h4>
-<hr>
-<ul>
- <li>WEDDING DRESSES</li>
- <li>BRIDESMAIDS & OCCASION</li>
- <li>VEILS &HAIR</li>
- <li>SHOES & ACCESSORIES</li>
- <li>JEWELLERY</li>
- <li>CAPES & COVER-UPS</li>
- <li>ENGAGEMENT & WEDDING RINGS</li>
-</ul>
- </div>
- <div class="c2">
-   <h4>HELP</h4>
-   <hr>
-   <ul>
-     <li>FREQUENTLY ASKED QUESTIONS</li>
-     <li>SIZING & ORDERING</li>
-     <li>SHIPPING & DELIVERY</li>
-     <li>TERMS & CONDITIONS</li>
-     <li>CONTACT US</li>
-   </ul>
- </div>
- 
- <div class="c4" style="margin-top: -3.5em; ">
-   <h4>JOIN US</h4>
-   <hr style="margin-bottom: 3em;">
-   <form action="/action_page.php">
-   <label for="email"></label>
- <input type="text" id="email" name="email" placeholder="EMAIL ADDRESS">
- <br>
- <label for="fnamel"></label>
- <input type="text" id="fname" name="firstname" placeholder="FIRST NAME"> <br>
- <input type="submit" value="SUBSCRIBE">
-</form>
- </div>
-</section>
-<hr>
-<div class="foot">&copy; .Mia Lace Collections. All rights reserved. | Terms and Conditions | Privacy </div>
+<footer>
+  <div class="row">
+    <div class="col">
+      <h2>SHOP</h2>
+      <ul>
+        <li><a href="./shop.html">Wedding Dresses</a></li>
+        <li><a href="./ocassion.html">Bridesmaids &amp; Occasion</a></li>
+        <li><a href="./rings.html">Engagement &amp; Wedding Rings</a></li>
+      </ul>
+    </div>
+
+    <div class="col">
+      <h2>HELP</h2>
+      <ul>
+        <li><a href="./sizing.html">Sizing &amp; Ordering</a></li>
+        <li><a href="./sizing.html">Shipping &amp; Delivery</a></li>
+        <li><a href="./sizing.html">Terms &amp; Conditions</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="col footer__contact">
+      <h2>JOIN US</h2>
+      <form>
+        <div class="input__group">
+          <label for="firstname">Firstname</label>
+          <input type="text" name="firstname" placeholder="Jane">
+        </div>
+
+        <div class="input__group">
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="jane.doe@mail.com">
+        </div>
+
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <p class="copyright">&copy; Mia Lace Collections. All rights reserved.</p>
+</footer>
   </body>
 </html>

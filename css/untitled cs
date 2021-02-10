@@ -491,6 +491,12 @@ header nav ul li a {
   position: relative;
 }
 
+header nav ul li.has-children > a::after {
+  content: "\2304";
+  position: absolute;
+  top: -15%;
+  margin-left: .3rem;
+}
 
 header nav ul li:not(:last-of-type) {
   margin-right: 1.5rem;

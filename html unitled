@@ -19,6 +19,16 @@
 
       <ul>
         <li class="has-children"><a href="./shop.html">Shop</a>
+          <ul class="sub">
+            <li><a href="./shop.html">Wedding Dresses</a></li>
+            <li><a href="./ocassion.html">Bridesmaids &amp; Occasionwear</a></li>
+            <li><a href="./veils.html">Veils &amp; Hair</a></li>
+            <li><a href="./shoes.html">Shoes &amp; Accessories</a></li>
+            <li><a href="./flower.html">Flowergirl &amp; Occasionwear</a></li>
+            <li><a href="./jewellery.html">Jewellery</a></li>
+            <li><a href="./cape.html">Capes &amp; Robes</a></li>
+            <li><a href="./online.html">Online Sample</a></li>
+          </ul>
         </li>
         <li><a href="./about.html">About</a></li>
         <li><a href="./assist.html">Book An Appointment</a></li>
@@ -31,9 +41,8 @@
   </header>
 
   <div class="mia">
-    <a href="./shop.html">
+    <a>a>
     <img src="./images/img1.jpg">
-    </a>
   </div>
       
   <div class="style"><h3>MIA LACE COLLECTIONS</h3>
@@ -78,13 +87,13 @@
 
 
 <div class="container">
-  <h3 class="title">UTAH</h3>
+  <h3 class="title">SAN DIEGO</h3>
   <div class="content">
-    <a href="./assist.html" target="_blank">
+    <a href="#" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="./images/img21.jpg">
       <div class="content-details fadeIn-top">
-        <h3>UTAH</h3>
+        <h3>SAN DIEGO</h3>
         <p><button>BOOK AN APPOINTMENT</button></p>
       </div>
     </a>
@@ -92,13 +101,13 @@
 </div>
 
 <div class="container">
-  <h3 class="title">FLORIDA</h3>
+  <h3 class="title">CHICAGO</h3>
   <div class="content">
-    <a href="./assist.html" target="">
+    <a href="#" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="./images/img22.jpg">
       <div class="content-details fadeIn-left">
-        <h3>FLORIDA</h3>
+        <h3>CHICAGO</h3>
         <p><button>BOOK AN APPOINTMENT</button></p>
       </div>
     </a>
@@ -108,13 +117,13 @@
 
 
 <div class="container" style="margin-bottom: 6em;">
-  <h3 class="title">MARYLAND</h3>
+  <h3 class="title">ONLINE</h3>
   <div class="content">
-    <a href="./assist.html">
+    <a href="" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="./images/img27.jpg">
       <div class="content-details fadeIn-bottom fadeIn-right">
-        <h3>MARYLAND</h3>
+        <h3>ONLINE</h3>
         <p><button>BOOK AN APPOINTMENT</button></p>
       </div>
     </a>
@@ -154,6 +163,10 @@
       <ul>
         <li><a href="./shop.html">Wedding Dresses</a></li>
         <li><a href="./ocassion.html">Bridesmaids &amp; Occasion</a></li>
+        <li><a href="./veils.html">Veils &amp; Hair</a></li>
+        <li><a href="./shoes.html">Shoes &amp; Accessories</a></li>
+        <li><a href="./jewellery.html">Jewellery</a></li>
+        <li><a href="./cape.html">Capes &amp; Cover-Ups</a></li>
         <li><a href="./rings.html">Engagement &amp; Wedding Rings</a></li>
       </ul>
     </div>
