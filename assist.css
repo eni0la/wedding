@@ -10,7 +10,7 @@ body{
   font-weight: 600;
   font-size:2em ;
   margin-bottom: 3em;
-  color: rgb(1, 58, 94);
+  color:  rgb(67, 69, 75);
   text-align: center;
 }
 
@@ -36,10 +36,10 @@ body{
 }
 .press p{
   text-align: center;
-  font-size: 1.259em;
+  font-size: 1.45em;
   line-height: 32px;
   font-weight: lighter;
-  color: rgb(1, 58, 94);
+  color:  rgb(67, 69, 75);
 }
 #hero{
   display: flex;
@@ -64,7 +64,7 @@ body{
 }#hero .text h3{
   text-align: center;
   font-size: 2em;
-  color: rgb(1, 58, 94);
+  color:  rgb(67, 69, 75);
   font-weight: bold;
   line-height: 40px;
 }
@@ -73,13 +73,13 @@ body{
   text-decoration: none;
   font-size: 1.4em;
   letter-spacing: 1px;
-  color: rgb(1, 58, 94);
+  color:  rgb(67, 69, 75);
 }
 #hero .text p{
   margin-top: 3em;
-  font-size: 1.2em;
+  font-size: 1.45em;
   line-height: 30px;
-  color: rgb(1, 58, 94);
+  color:  rgb(67, 69, 75);
   text-align: center;
 }
 .press2 h5 {
@@ -87,8 +87,8 @@ body{
   margin-top: 3em;
   font-size:2em ;
   margin-bottom: 3em;
-  color: rgb(1, 58, 94);
-  text-align: center;
+  color:  rgb(67, 69, 75);
+    text-align: center;
 }
 
 .press2 h5:before,
@@ -157,7 +157,7 @@ line-height: 28px;
   margin-top: 3em;
   font-size:2em ;
   margin-bottom: 3em;
-  color: rgb(1, 58, 94);
+  color:  rgb(67, 69, 75);
   text-align: center;
 }
 
@@ -183,7 +183,7 @@ line-height: 28px;
 }
 .para2 p{
   font-size: 1.5em;
-  color: rgb(1, 58, 94);
+  color:  rgb(67, 69, 75);
   margin-top: -2em;
   text-align: center;
   color: rgb(0, 41, 66);
@@ -193,10 +193,10 @@ line-height: 28px;
 
 .para p{
   font-size: 1.5em;
-  color: rgb(1, 58, 94);
+  color:  rgb(67, 69, 75);
   margin-top: -2em;
   text-align: center;
-  color: rgb(0, 41, 66);
+  color:  rgb(67, 69, 75);
   margin-bottom: 5em;
   font-style: italic;
 }
@@ -211,8 +211,8 @@ line-height: 28px;
     }
   }
 #map{
-  color: rgb(0, 41, 66);
-  display: flex;
+  color:  rgb(67, 69, 75);
+    display: flex;
   width: 100%;
   margin-left: 1em;
   margin-right: 1em;
@@ -269,7 +269,7 @@ font-size: 1.1em;
   align-items: center;
   margin-top: 7em;
   margin-bottom: 6em;
-  color: rgb(45, 43, 44);
+    color:  rgb(67, 69, 75);
 }
 #shop h2{
   text-align: center;

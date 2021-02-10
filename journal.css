@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: didot, serif;
+  scroll-behavior: smooth !important;
+}
+.top h2{
+  font-size: 5em;
+  text-align: center;
+  color:  rgb(67, 69, 75);
+  margin-top: 2em;
+  letter-spacing: 1px;
+
+}
+.top img{
+width: 100%;
+height: auto;
+}
+.hero img{
+  width: 70%;
+  margin-left: 18em;
+  height: auto;
+}
+@media screen and (max-width: 1600px) {
+  .hero img{
+    margin-left: 10em;
+  }
+}
+.hero h5{
+text-align: center;
+color:  rgb(67, 69, 75);
+font-weight: lighter;
+font-size: 0.8em;
+}
+.hero h3{
+  color:  rgb(67, 69, 75);
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
+  font-size: 2em;
+
+}
+.hero p{
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: center;
+  color:  rgb(67, 69, 75);
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  margin-bottom: 3em;
+}
