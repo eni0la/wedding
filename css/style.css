@@ -937,6 +937,10 @@ ul {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 /** header */
 header {
   height: 100px;
