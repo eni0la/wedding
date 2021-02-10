@@ -989,7 +989,7 @@ footer > .row {
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) and (min-width: 481px) {
   footer {
     padding: 3rem 2.5rem;
   }
@@ -1000,6 +1000,10 @@ footer > .row {
 }
 
 @media screen and (max-width: 480px) {
+  footer {
+    padding: 3rem 2.5rem;
+  }
+
   footer > .row {
     grid-gap: 0;
     grid-template-columns: 1fr;
