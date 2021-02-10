@@ -348,11 +348,6 @@ p{
   font-style: italic;
 }
 
-
-#hero .container1 {
- 
-}
-
 #hero .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -363,6 +358,7 @@ p{
   width: 9px;
   text-decoration: none;
 }
+
 #hero{
   height: 60em;
   width: 65%;
@@ -377,8 +373,6 @@ p{
 
 #hero .text-wrapper {
   position: relative;
-  width: 36em;
-  height: 48em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -386,6 +380,7 @@ p{
   color: #fff;
   opacity: 0;
 }
+
 #hero button{
   padding: 10px 45px;
   font-size: 1.05em;
