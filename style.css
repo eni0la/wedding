@@ -1,13 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
+* {
+  box-sizing: border-box;
+}
+
 h1 {
 	font-size: 60px;
 	text-align: center;
 	color: #FFF;
-}	
-
-
+}
 
 #container {
 	margin: 0 auto;
@@ -150,8 +152,8 @@ tznav ul ul ul li {
 
 	
 /* Change ' +' in order to change the Dropdown symbol */
-li > a:after { content:  ' >'; }
-li > a:only-child:after { content: ''; }
+/* li > a:after { content:  ' >'; }
+li > a:only-child:after { content: ''; } */
 
 
 /* Media Queries
@@ -265,7 +267,6 @@ li > a:only-child:after { content: ''; }
 	tznav ul ul ul li {
 		position: static;
 		/* has to be the same number as the "width" of "nav ul ul li" */ 
-f64
 	}
 
 }
@@ -289,7 +290,6 @@ body{
 .mia img{
   width: 100%;
   height: auto;
-  margin-top: -1em;
   margin-bottom: 1em;
   opacity: 4;
   background: rgba(250, 148, 148, 0.5);
@@ -919,5 +919,150 @@ input[type=submit] {
   margin-top: -0.3em;
   background-color:rgb(236, 237, 240) ;
 
+
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/** header */
+header {
+  height: 100px;
+  padding: 0 6rem;
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    padding: 0 3rem;
+  }
+}
+
+header a {
+  color: #000;
+}
+
+header nav {
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav .logo img {
+  width: 50px;
+}
+
+header nav ul li {
+  display: inline-block;
+  position: relative;
+  padding: 0 2px;
+}
+
+
+header nav ul li:hover > a {
+  font-weight: bold;
+}
+
+header nav ul li a {
+  position: relative;
+}
+
+header nav ul li.has-children > a::after {
+  content: "\2304";
+  position: absolute;
+  top: -15%;
+  margin-left: .3rem;
+}
+
+header nav ul li:not(:last-of-type) {
+  margin-right: 1.5rem;
+}
+
+header nav ul li:not(:last-of-type).has-children {
+  margin-right: 2rem;
+}
+
+header nav ul li > ul {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  background: #fff;
+  padding: 20px;
+  min-width: 250px;
+  border: 1px solid #fcfcfc;
+  left: -5px;
+}
+
+header nav ul li > ul li {
+  padding: 8px 10px;
+}
+
+@media screen and (min-width: 851px) {
+  header nav ul li:hover > ul {
+    display: block;
+  }
+}
+
+header .mobile-menu {
+  font-size: 3rem;
+  display: none;
+  padding: 0 2px;
+}
+
+@media screen and (max-width: 850px) {
+  header {
+    padding: 0 2rem;
+  }
+
+  header nav .mobile-menu {
+    display: block;
+    position: fixed;
+    z-index: 10;
+    right: 2rem;
+    top: 1rem;
+  }
+
+  header nav ul {
+    left: 0;
+    top: 0;
+    padding: 4rem 15px 30px;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background: #fff;
+    position: fixed;
+    z-index: 9;
+    border: 1px solid #fcfcfc;
+  }
+
+  header nav > ul.expanded {
+    display: block;
+  }
+
+
+  header nav ul li {
+    margin: 0;
+    display: block ;
+    padding: 10px 15px;
+  }
+
+  header nav ul li.has-children  > ul {
+    position: relative;
+    width: calc(100vw - 2rem);
+    top: 0;
+  }
+
+  header nav ul li.has-children > ul.expanded {
+    display: block;
+  }
 
 }
