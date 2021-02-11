@@ -4,6 +4,32 @@ body{
   font-family: didot, serif;
   scroll-behavior: smooth !important;
 }
+.owner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.owner img{
+  width: 100%;
+  height: 30%;
+}
+.owner h2{
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 40px;
+  font-size: 2em;
+  color:  rgb(67, 69, 75);
+  font-weight: bold;
+  font-style: italic;
+
+}
+@media screen and (max-width: 1200px) {
+.owner{
+  display: block;
+}
+}
 #hero{
   display: flex;
   justify-content: space-around;
